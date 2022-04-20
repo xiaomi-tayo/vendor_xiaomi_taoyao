@@ -1254,6 +1254,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libanc_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_hdr.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libancbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libancbase.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
+    vendor/xiaomi/taoyao/proprietary/vendor/lib64/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_wds.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libarc_sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarc_sat.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libarc_translate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarc_translate.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libarccali_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarccali_data.so \
