@@ -12,19 +12,19 @@
     ".params":{
       "owner": "sar_algo_1",
         "threshold1": {
-          "ver": "3", "type": "flt", "data": "50"
+          "ver": "0", "type": "flt", "data": "50"
         },
         "threshold2": {
-          "ver": "4", "type": "flt", "data": "1100"
+          "ver": "0", "type": "flt", "data": "1100"
         },
         "threshold3": {
-          "ver": "4", "type": "flt", "data": "1100"
+          "ver": "1", "type": "flt", "data": "1600"
         },
         "threshold4": {
-          "ver": "4", "type": "flt", "data": "1100"
+          "ver": "0", "type": "flt", "data": "1100"
         },
         "threshold5": {
-          "ver": "4", "type": "flt", "data": "1100"
+          "ver": "0", "type": "flt", "data": "1100"
         },
         "use_acc_gyro": {
           "ver": "0", "type": "flt", "data": "0"

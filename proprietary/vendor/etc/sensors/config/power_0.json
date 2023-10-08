@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["MTP","QRD","LISA", "Surf", "RCM", "RENOIR"],
-    "soc_id": ["475"]
+    "hw_platform": ["MTP", "Surf", "RCM", "CETUS", "MONA"],
+    "soc_id": ["415", "475"]
   },
   "power":{
     "owner": "power_manager",

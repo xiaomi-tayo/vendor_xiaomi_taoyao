@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP","QRD","LISA", "Dragon", "Surf", "HDK", "UMI", "IDP"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "PSYCHE", "QRD"],
     "soc_id": ["291", "246", "305", "341", "356", "475"]
   },
   "sx933x_0":{
@@ -10,7 +10,7 @@
       "owner": "sx933x_0",
       ".config":{
         "owner": "sx933x_0",
-        "is_dri":{ "type": "int", "ver": "0",
+        "is_dri":{ "type": "int", "ver": "1",
           "data": "0"
         },
         "hw_id":{ "type": "int", "ver": "0",

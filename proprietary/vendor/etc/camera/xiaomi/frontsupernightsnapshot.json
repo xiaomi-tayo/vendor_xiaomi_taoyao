@@ -35,23 +35,23 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "GpuInstance"
+          "NodeInstance": "SkinBeautifierInstance"
         }
       },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "GpuInstance"
+          "NodeInstance": "SkinBeautifierInstance"
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "SkinBeautifierInstance"
+          "NodeInstance": "GpuInstance"
         }
       },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "SkinBeautifierInstance"
+          "NodeInstance": "GpuInstance"
         },
         "DstPort": {
           "PortId": 0,

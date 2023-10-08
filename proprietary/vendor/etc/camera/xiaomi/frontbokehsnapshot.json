@@ -3,6 +3,10 @@
   "NodesList": {
       "Node": [
       {
+          "NodeName": "com.xiaomi.plugin.hdr",
+          "NodeInstance": "HdrInstance0"
+      },
+      {
           "NodeName": "com.xiaomi.plugin.skinbeautifier",
           "NodeInstance": "SkinBeautifierInstance0"
       },
@@ -22,6 +26,16 @@
           "SrcPort": {
               "PortId": 0,
               "NodeInstance": "SourceBuffer"
+          },
+          "DstPort": {
+              "PortId": 0,
+              "NodeInstance": "HdrInstance0"
+          }
+      },
+      {
+          "SrcPort": {
+              "PortId": 0,
+              "NodeInstance": "HdrInstance0"
           },
           "DstPort": {
               "PortId": 0,

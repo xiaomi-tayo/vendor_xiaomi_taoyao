@@ -1,0 +1,13 @@
+{
+	"TrueSight":"",
+	"BrandModel": "xiaomi_L9",
+	"DefaultEffectPath": "render/Effect/effect_mode_native.json",
+	"EffectGLSLPath": "render/glsl/",
+	"E2EMaleDegreeFactor": 1.0,
+	"EffectParams":[
+		{"##":"特定内置效果系数"}
+	],
+	"EnvParams":[
+		{"##":"环境光相关系数，如果无法抽取就code if else处理"}
+	]
+}

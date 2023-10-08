@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP","QRD","LISA", "Surf", "RCM", "RENOIR"],
+    "hw_platform": ["MTP", "Surf", "RCM", "MONA"],
     "soc_id": ["475"]
   },
 

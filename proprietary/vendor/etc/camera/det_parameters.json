@@ -1,0 +1,139 @@
+{
+    "Loader_param": {
+        "type": "detection",
+        "mode": "normal",
+        "name": "human_detect"
+    },
+    "PreProcess": {
+        "inputs": [
+            {
+                "name": "input",
+                "shape": [
+                    1,
+                    320,
+                    320,
+                    3
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "742",
+                "layer": "Sigmoid_248",
+                "shape": [
+                    1,
+                    40,
+                    40,
+                    2
+                ]
+            },
+            {
+                "name": "743",
+                "layer": "Sigmoid_249",
+                "shape": [
+                    1,
+                    20,
+                    20,
+                    2
+                ]
+            },
+            {
+                "name": "744",
+                "layer": "Sigmoid_250",
+                "shape": [
+                    1,
+                    10,
+                    10,
+                    2
+                ]
+            },
+            {
+                "name": "769",
+                "layer": "Concat_272",
+                "shape": [
+                    1,
+                    40,
+                    40,
+                    32
+                ]
+            },
+            {
+                "name": "794",
+                "layer": "Concat_294",
+                "shape": [
+                    1,
+                    20,
+                    20,
+                    32
+                ]
+            },
+            {
+                "name": "819",
+                "layer": "Concat_316",
+                "shape": [
+                    1,
+                    10,
+                    10,
+                    32
+                ]
+            }
+        ],
+        "resize_keep_ratio": true,
+        "image_mean": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "image_std": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "inputimage_format": "bgr",
+        "size_divisor": 32,
+        "do_pixel_norm": false
+    },
+    "Executor": {
+        "model_folder": "proposal_final",
+        "adsp_path": "/vendor/lib/rfsa/adsp;/system/lib/rfsa/adsp;/system/vendor/lib/rfsa/adsp;/dsp",
+        "asset_path": "/vendor/etc/camera",
+        "log_keyword": "algo_det",
+        "verify": "mialgo-multicam",
+        "reserved_string": "",
+        "reserved_int": 0
+    },
+    "PostProcessList": [
+        {
+            "head_type": "Detection",
+            "head_id": "det_head",
+            "head_dep": [
+                "Executor",
+                "PreProcess"
+            ],
+            "param": {
+                "anchor_generator": {
+                    "anchor_strides": [
+                        8,
+                        16,
+                        32
+                    ]
+                },
+                "anchor_head": {
+                    "cls_output_name": [
+                        "742",
+                        "743",
+                        "744"
+                    ],
+                    "reg_output_name": [
+                        "769",
+                        "794",
+                        "819"
+                    ],
+                    "use_sigmoid_cls": true,
+                    "iou_thr": 0.6,
+                    "score_thr": 0.3
+                }
+            }
+        }
+    ]
+}

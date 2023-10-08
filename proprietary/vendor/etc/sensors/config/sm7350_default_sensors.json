@@ -1,6 +1,6 @@
 {
     "config":{
-        "hw_platform": ["MTP","QRD","LISA", "Surf", "RCM", "RENOIR"],
+        "hw_platform": ["MTP", "Surf", "RCM", "MONA"],
         "soc_id": ["475"]
     },
 
@@ -48,6 +48,11 @@
                 "owner": "suid",
                 "id": { "type": "int", "ver": "0", "data": "19" },
                 "val": { "type": "int", "ver": "0", "data": "0" }
+            },
+            ".attr_1": {
+                "owner": "suid",
+                "id": { "type": "int", "ver": "0", "data": "0" },
+                "val": { "type": "str", "ver": "0", "data": "lsm6dst" }
             }
         },
 

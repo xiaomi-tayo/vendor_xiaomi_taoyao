@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "QRD", "LISA"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "QRD", "MONA"],
     "soc_id": ["339", "340", "361", "475"]
   },
   "icm4x6xa_0":{
@@ -149,14 +149,14 @@
     },
     ".orient":{
       "owner": "icm4x6xa",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+      "x":{ "type": "str", "ver": "1",
+        "data": "+x"
       },
-      "y":{ "type": "str", "ver": "0",
+      "y":{ "type": "str", "ver": "1",
         "data": "-y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "+z"
+        "data": "-z"
       }
     },
     ".gyro":{

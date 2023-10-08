@@ -1,9 +1,8 @@
 {
   "config": {
     "hw_platform": [
-      "MTP","QRD","LISA", "Dragon", "Surf", "RENOIR" ],
-    "soc_id": [
-      "300", "301" ]
+      "MTP", "Dragon", "Surf", "QRD", "MONA"],
+    "soc_id": ["300", "301"]
   },
   "sns_wrist_pedo": {
     "owner": "sns_wrist_pedo",
