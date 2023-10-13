@@ -1476,6 +1476,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libsensor_cal_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_cal_v2.so \
+    vendor/xiaomi/taoyao/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libshadingcalibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshadingcalibrate.so \
     vendor/xiaomi/taoyao/proprietary/vendor/lib64/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-manager.so \
